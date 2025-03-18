@@ -1,0 +1,88 @@
+{
+  "best_practices": [
+    "Use high-quality seeds for better germination and yield. ",
+    "Maintain optimal soil moisture levels for healthy growth.",
+    "Employ timely weeding to prevent weed competition.",
+    "Apply balanced fertilizers as per soil test recommendations.",
+    "Monitor crops regularly for pest and disease infestation.",
+    "Harvest radish at the right maturity stage for better quality."
+  ],
+  "suitable_crops": [
+    {
+      "crop": "Radish",
+      "image_url": "url_to_radish_image",
+      "reasoning": "Radishes thrive in alluvial soil and are suitable for Tamil Nadu's climate."
+    },
+    {
+      "crop": "Tomato",
+      "image_url": "url_to_tomato_image",
+      "reasoning": "Tomatoes are a versatile crop adaptable to various conditions."
+    },
+    {
+      "crop": "Beans",
+      "image_url": "url_to_beans_image",
+      "reasoning": "Beans are relatively easy to grow, requiring less intensive care."
+    }
+  ],
+  "growth_info": {
+    "T_Max": 30,
+    "T_Min": 10,
+    "Optimum_degree": 20,
+    "Rainfall_mm": [
+      200,
+      800
+    ],
+    "Altitude_m_MSL": [
+      0,
+      1500
+    ],
+    "Additional_Info": "Radishes need well-drained soil for best growth."
+  },
+  "enough_budget": "Insufficient data to assess budget adequacy.",
+  "expected_harvest_time": "40",
+  "estimated_market_price": 20,
+  "potential_crop_diseases": [
+    "Root rot",
+    "Downy mildew",
+    "Leaf spot"
+  ],
+  "disease_details": [
+    "Fungal infection affecting roots",
+    "Fungal infection causing leaf damage",
+    "Fungal infection creating spots on leaves"
+  ],
+  "precautionary_measures": [
+    "Proper irrigation",
+    "Disease monitoring",
+    "Pest control",
+    "Weed management"
+  ],
+  "Soil_Ph": 6.5,
+  "detailed_crop_schedule": [
+    {
+      "crop": "Radish",
+      "schedule": [
+        {
+          "day": "Day 1-5",
+          "task": "Seed sowing & soil preparation"
+        },
+        {
+          "day": "Day 10-15",
+          "task": "Thinning and weeding"
+        },
+        {
+          "day": "Day 20-25",
+          "task": "Pest & disease monitoring, fertilizer application (if needed)"
+        },
+        {
+          "day": "Day 30-35",
+          "task": "Harvesting preparation"
+        },
+        {
+          "day": "Day 40",
+          "task": "Harvesting"
+        }
+      ]
+    }
+  ]
+}
