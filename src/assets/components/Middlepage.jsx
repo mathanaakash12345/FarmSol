@@ -29,7 +29,7 @@ export default function Middlepage() {
     image: null,
   });
 
-  const API_KEY = "fcff2877cdfa6a8021924af25a0e893a";
+  const API_KEY = ""Weather API Key"";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -110,7 +110,7 @@ export default function Middlepage() {
 
     try {
       const genAI = new GoogleGenerativeAI(
-        "AIzaSyCBY4pic2uEucVaio6lc0aYFIgcyOTbxvo"
+        ""API Key""
       );
 
       const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
