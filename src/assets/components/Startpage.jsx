@@ -35,7 +35,7 @@ const Startpage = () => {
   const [predictedPrice, setPredictedPrice] = useState("");
 
   const navigate = useNavigate();
-  const API_KEY = "fcff2877cdfa6a8021924af25a0e893a"; // Weather API Key
+  const API_KEY = "Weather API Key"; // Weather API Key
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -128,7 +128,7 @@ const Startpage = () => {
 
     try {
       const genAI = new GoogleGenerativeAI(
-        "AIzaSyCBY4pic2uEucVaio6lc0aYFIgcyOTbxvo"
+        ""API Key""
       );
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
